@@ -1,0 +1,174 @@
+
+body{
+  background-color: azure;
+  }
+
+h1{
+ font-family: Gabriola;
+ text-decoration: bold;
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  height: 100%;
+  min-width: 100%;
+  font-size: 300%;
+  color: darkblue; 
+  direction: ltr;
+  }
+button{
+   width: 80px;
+   background-color: iceblue;
+   color: darkblue;
+   border:2px solid skyblue;
+  }
+span.buttons{
+     text-decoration: italic;
+     font-size: 120%;
+     }
+.mainhead{
+	background-position: 0 0;
+	height: 10%;
+	width: 100%;
+	top: 0px;
+}
+#campustopicon{ height: 100px; width: 100%;}
+.signin {z-index:6; color: red;}
+#signsbuttons{
+    direction: rtl;
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+#search{
+	float: right;
+	position: absolute;
+	top: 50px;
+	right: 35px;
+	width: 250px;
+	overflow: hidden;
+	}
+#block{
+   padding: 10px;
+   width: 50%;
+   position: absolute;
+}
+
+
+#sidehead{
+    text-align: center;
+}
+
+p{
+   color: darkslateblue;
+}
+
+h2, h3{
+    color: midnightblue;
+}
+
+td{
+    border: 0;
+  }
+
+#p1{
+  font-family: verdana;
+  font-size: 100%;
+  padding: 10px;
+  text-align: center;
+  }
+
+.formtable{
+	float: none;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+	padding: 20px;
+	}
+
+.steps{
+    text-decoration: bold;
+    margin: 20px;
+   }
+
+fieldset{
+    text-align: center;
+    }
+
+.signupforms{
+	width: 500px;
+	height : 480px;
+	overflow: hidden;
+	position: relative; 
+	top: 0px;
+	left: 400px;
+	}
+.warning-footer {
+    border: 2 px dotted midnightblue;
+    position: relative;
+    top:10px;
+    left: 350px;
+    width: 580px;
+    text-align: center;
+    }
+
+#welcome{
+     width: 400px;
+     position: relative;
+     left: 120px;
+     top: 0;
+     font-size: 120%;
+     background-color: rgb(215, 230, 235);
+     height: 150px;
+     padding: 20px;
+     }
+#navigate{
+	width: 50%;
+	height: 450px;
+	border:0;
+	float: right;
+	z-index: 2;
+	position: relative;
+	right:100px;
+	}
+.icons{
+   width: 20px;
+   height: 20px;
+   border: 0;
+}
+.lowpaneicons {position: relative; top: 40px;}
+.bottomleft{
+     position: absolute;
+     left: 75px;
+     }
+ul{
+   list-style-type: none;
+   }
+   
+#lowpane{
+	width: 400px;
+	float: none;
+	position: relative;
+	top: 135px;
+	}
+#shaven{
+  font-size: 80%;
+  font-family: "Times New Roman";
+  position: relative;
+  bottom: 0;
+  text-align:center;
+  }
+#shlogo{
+      position: static;
+      }
+a:link {color: blue;
+	background-color: transparent;
+	text-decoration: none;}
+a:visited {color: purple;
+	background-color: transparent;
+	text-decoration: none;}
+a:active {color: purple;
+	background-color: transparent;
+	text-decoration: none;}

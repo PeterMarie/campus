@@ -1,0 +1,85 @@
+body{
+  background-color: burlywood;
+  }
+h1{
+ font-family: Gabriola;
+ text-decoration: bold;
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  height: 100%;
+  min-width: 100%;
+  font-size: 300%;
+  color: darkgoldenrod; 
+  direction: ltr;
+  <!---webkit-text-size-adjust: none;-->
+  }
+.mainhead{
+	background-position: 0 0;
+	height: 10%;
+	width: 100%;
+	top: 0px;
+	z-index: 0;
+}
+#campustopicon{ height: 100px; width: 100%;}
+#search{
+	position: absolute;
+	top: 50px;
+	right: 35px;
+	width: 280px;
+	overflow: hidden;
+	}
+#sidepane{
+   width: 250px;
+   background-color: peru;
+   position: relative;
+   top: -20px;
+   left: 20px;
+   padding: 10px;
+   border: 2px solid sienna;
+   }
+.screenleft {float: left;}
+.paneheader {position: relative; top: 10px;}
+.panehead {float: none; position: relative; padding: 5px; color: rgb(66, 25, 25); background-color: peru; z-index: 1; width: 25%;}
+.paneline {position: relative;  left: 0; bottom: 35px; color: brown; z-index: 0;}
+.panearrow {float: right; z-index: 1; background-color: peru; position: relative; bottom: 44px;}
+.panelink {font-family: centaur;}
+.panelink:link {color: brown; background-color: transparent; text-decoration: none;}
+.panelink:visited {color: brown; background-color: transparent; text-decoration: none;}
+.panelink:active {color: brown; background-color: transparent; text-decoration: none;}
+.in_pane {color: saddlebrown;}
+.rtl_link {direction: rtl;}
+.bottomleft{ position: absolute; left: 75px;}
+ul {list-style-type: none;}
+.icons {width: 20px; height: 20px; border: 0;}
+#lowpane{width: 400px; float: none; position: relative; top: -10px;}
+#shaven{font-size: 80%; font-family: "Times New Roman"; position: relative; bottom: 0; text-align:center;}
+.lowpaneicons {position: relative; top: 40px;}
+.workpane { width: 160px; border: 2px solid sienna; background-color: sandybrown; position: relative; left: 25px;}
+.workitems {position: relative; border: 0; padding: 2px; left: 10px; z-index: 3;}
+.sociallink:link {color: blue; background-color: transparent; text-decoration: none}
+.sociallink:visited {color: cornflowerblue; background-color: transparent; text-decoration: none}
+.sociallink:active {color: cornflowerblue; background-color: transparent; text-decoration: none}
+.extracurrlink:link {color: orangered; background-color: transparent; text-decoration: none}
+.extracurrlink:visited {color: darkgoldenrod; background-color: transparent; text-decoration: none}
+.extracurrlink:active {color: darkgoldenrod; background-color: transparent; text-decoration: none}
+.switch {position: relative; border: 0; left: 20px;}
+.menubar {float: right; position: relative; bottom: 60px;}
+.menu {float: right;}
+.menuitem {border: 2px solid sienna; }
+.bar li{display: inline; padding: 10px; width: 40px; height: 40px; background-color: peachpuff;}
+.menuicons {width: 40px; height: 40px; border: 0; position: relative; top: 15px}
+.menu-frame {width:0; height:0; background-color: rgb(240,219,194); position: relative; border:0; bottom: 65px; z-index:5;}
+.right_pane {position: fixed; bottom: 0; right: 0;  width: 200px; z-index:3;}
+.clock_pane { position: relative; left: 25px;}
+.clockframe {height: 180px; width:150px; border:0; }
+.newspane {width:750px; height:500px; border: 1px dotted gray; position: relative; left: 350px; top: 25px;}
+.hiddenframe {width:0; height:0; border:0; }
+#workarea {width: 500px; height: 600px; border:0; } 
+.workheader {font-family: "Comic Sans Ms"; font-size: 70%; color: rgb(66, 25, 25); position: relative; left: 30px; }
+.studylines {background-color: rgb(66, 25, 25); color: rgb(66, 25, 25); }
+.calculator {position: fixed; bottom: -40px; right: 185px; z-index: 3; }
+.mini { margin: 5px; padding: 3px; border: 1px dotted sienna; z-index: 4; position: absolute; right: 0; }
+#workpanetitle { color: rgb(66, 25, 25); padding: 5px; margin: 5px; }
+#hiddenspace {height: 130px;}
+.wiki_frame {height: 80px; width: 200px; border: 2px solid mediumblue; }
